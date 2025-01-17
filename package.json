@@ -18,6 +18,11 @@
   "keywords": [],
   "description": "",
   "dependencies": {
-    "@nestjs/cli": "^10.4.9"
+    "@nestjs/cli": "^10.4.9",
+    "@nestjs/platform-socket.io": "^11.0.1",
+    "@nestjs/websockets": "^11.0.1"
+  },
+  "devDependencies": {
+    "@types/socket.io": "^3.0.1"
   }
 }
