@@ -1,0 +1,23 @@
+{
+  "name": "mysticmirror",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miu-null/Mystic-Mirror.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miu-null/Mystic-Mirror/issues"
+  },
+  "homepage": "https://github.com/miu-null/Mystic-Mirror#readme",
+  "keywords": [],
+  "description": "",
+  "dependencies": {
+    "@nestjs/cli": "^10.4.9"
+  }
+}
