@@ -12,47 +12,71 @@
   background-color: #fff9fd;
   height: 100%;
   display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
-  /*
-  font-size: calc(10px + 2vmin);
-   color: white; */
 }
 .Rectangle {
   position: relative;
-  box-sizing: border-box;
   display: flex;
+  border-radius: 5px;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
   width: 1070px;
-  height: 1500px;
+  height: 2000px;
   left: calc(50% - 1070px / 2);
   top: 131px;
-  flex-direction: column;
   background: #ffffff;
   border: 1px solid #ab09e6;
+  gap: 35px;
 }
-
 .App-logo {
-  /* height: 50vmin; */
+  position: relative;
   width: auto;
-  position: absolute;
-  align-items: center;
-
   height: 351px;
-  top: 56px;
-  display: absolute;
+  top: -220px;
 }
 
 .intro {
+  position: relative;
   font-family: 'LanaPixel';
   text-align: center;
   font-size: 20px;
   color: #972db7;
-  position: absolute;
-  top: 420px;
-  left: 50%;
-  transform: translateX(-50%);
+  top: -160px;
+}
+
+.App-door {
+  position: relative;
+  top: -100px;
+  display: flex;
+  border-radius: 10px;
+  width: 300px;
+}
+.App-button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  background: linear-gradient(to right, #ab09e6, #ffffae, #bbbbff);
+  color: rgb(9, 19, 28);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: 'LanaPixel';
+}
+
+.App-button:hover {
+  background: linear-gradient(to right, #ff9fe1, #ff7e5f);
+  animation: blinkAnimation 1s infinite;
+}
+
+@keyframes blinkAnimation {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 50%; /* 반투명 */
+  }
+  100% {
+    opacity: 100%;
+  }
 }
