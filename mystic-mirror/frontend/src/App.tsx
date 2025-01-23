@@ -7,7 +7,7 @@ const App = () => {
   const introduce = [
     '언제부터인지 당신의 작은 마음 속에서 점점 커져가는 고민,',
     '그저 시간이 해결해 주길 바라며',
-    '혼자 무거운 마음을 안고 버티는 당신에게',
+    '혼자 그 무게를 안고 버티는 당신에게',
     '따스한 위로를 전합니다',
     '.',
     '.',
@@ -29,6 +29,13 @@ const App = () => {
   const handleImageClick = () => {
     setShowButton(!showButton);
   };
+
+  const popUp = () => {
+    window.Calendly.initPopupWidget({
+      url: 'https://calendly.com/miu-null/mystic-mirror',
+    });
+  };
+
   return (
     <div className="App">
       <header className="App-container">
@@ -46,7 +53,13 @@ const App = () => {
             onClick={handleImageClick}
             style={{ cursor: 'pointer' }}
           />
-          {showButton && <button className="App-button">문 열기</button>}
+          {showButton && (
+            <>
+              <button className="App-button" onClick={popUp}>
+                문 열기
+              </button>
+            </>
+          )}
         </div>
       </header>
     </div>
