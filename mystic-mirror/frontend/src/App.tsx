@@ -1,7 +1,7 @@
+import React, { useEffect, useState } from 'react';
 import './App.css';
 import logo from './logo.png';
 import door from './door.gif';
-import React, { useState } from 'react';
 
 const App = () => {
   const introduce = [
@@ -35,12 +35,17 @@ const App = () => {
       url: 'https://calendly.com/miu-null/mystic-mirror',
     });
   };
+  useEffect(() => {
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+  }, []);
 
   return (
     <div className="App">
       <header className="App-container">
         <div className="Rectangle">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={logo} className="App-logo" width={400} alt="logo" />
           <div className="intro">
             {introduce.map((intro, index) => (
               <p key={index}>{intro}</p>
@@ -49,6 +54,7 @@ const App = () => {
           <img
             src={door}
             className="App-door"
+            width={300}
             alt="door"
             onClick={handleImageClick}
             style={{ cursor: 'pointer' }}
