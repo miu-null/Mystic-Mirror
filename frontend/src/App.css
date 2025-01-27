@@ -108,15 +108,15 @@
 
 @media all and (min-width: 376px) and (max-width: 767px) {
     .App {
-        height: 120vh;
+        height: 140vh;
     }
     .App-container {
         height: 120%;
-        background-size: 44%;
+        background-size: 60%;
     }
     .Rectangle {
         width: 90%;
-        height: 70%;
+        height: 75%;
         left: 5%;
         top: 150px;
     }
@@ -127,7 +127,7 @@
     }
     .intro {
         font-size: 12px;
-        top: -60px;
+        top: 60px;
         position: relative;
     }
     .App-door {
