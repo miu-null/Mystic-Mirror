@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "react-scripts": "^5.0.1",
     "cra-template": "1.2.0",
     "nth-check": "^2.1.1",
     "react": "^19.0.0",
@@ -37,7 +38,6 @@
     "@types/react": "^19.0.7",
     "@types/react-dom": "^19.0.3",
     "postcss": "^8.5.1",
-    "react-scripts": "^5.0.1",
     "resolve-url-loader": "^5.0.0",
     "svgo": "^2.8.0",
     "typescript": "^4.9.5"
