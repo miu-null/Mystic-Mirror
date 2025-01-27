@@ -124,7 +124,7 @@
     }
     .intro {
         font-size: 12px;
-        top: 50px;
+        /* top: 50px; */
     }
     .App-door {
         width: 200px;
@@ -134,7 +134,7 @@
     .App-button {
         padding: 10px 20px;
         top: 200px;
-        /* position: relative; */
+        position: relative;
     }
 }
 
