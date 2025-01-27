@@ -132,7 +132,7 @@
     }
     .App-door {
         width: 200px;
-        top: -60px;
+        top: 60px;
         position: relative;
     }
     .App-button {
