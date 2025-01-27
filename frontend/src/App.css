@@ -107,16 +107,16 @@
 }
 
 @media all and (min-width: 376px) and (max-width: 767px) {
-    .App {
+    /* .App {
         height: 100%;
-    }
+    } */
     .App-container {
-        height: 100%;
+        /* height: 100%; */
         background-size: 44%;
     }
     .Rectangle {
         width: 90%;
-        height: 100%;
+        /* height: 100%; */
         left: 5%;
         top: 100px;
     }
@@ -131,7 +131,7 @@
     }
     .App-door {
         width: 200px;
-        top: 100px;
+        top: 200px;
         position: relative;
     }
     .App-button {
