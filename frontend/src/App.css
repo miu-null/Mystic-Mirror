@@ -107,6 +107,9 @@
 }
 
 @media all and (min-width: 376px) and (max-width: 767px) {
+    .App {
+        height: 150vh;
+    }
     .App-container {
         height: 150%;
         background-size: 44%;
