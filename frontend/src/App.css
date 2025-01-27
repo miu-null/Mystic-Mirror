@@ -113,7 +113,7 @@
     }
     .Rectangle {
         width: 90%;
-        height: 90%;
+        height: 80%;
         left: 5%;
         top: 100px;
     }
@@ -129,11 +129,11 @@
     .App-door {
         width: 200px;
         top: -100px;
-        /* position: relative; */
+        position: relative;
     }
     .App-button {
         padding: 10px 20px;
-        top: 200px;
+        top: -100px;
         position: relative;
     }
 }
