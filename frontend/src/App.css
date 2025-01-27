@@ -113,7 +113,7 @@
     }
     .Rectangle {
         width: 90%;
-        height: 80%;
+        height: 70%;
         left: 5%;
         top: 100px;
     }
@@ -124,7 +124,7 @@
     }
     .intro {
         font-size: 12px;
-        top: -300px;
+        top: -100px;
     }
     .App-door {
         width: 200px;
@@ -133,7 +133,7 @@
     }
     .App-button {
         padding: 10px 20px;
-        top: -100px;
+        top: -80px;
         position: relative;
     }
 }
