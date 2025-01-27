@@ -124,12 +124,12 @@
     }
     .intro {
         font-size: 12px;
-        top: 10px;
+        top: -500px;
     }
     .App-door {
         width: 200px;
         top: 200px;
-        position: relative;
+        /* position: relative; */
     }
     .App-button {
         padding: 10px 20px;
