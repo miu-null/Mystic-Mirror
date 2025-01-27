@@ -127,7 +127,8 @@
     }
     .intro {
         font-size: 12px;
-        top: -200px;
+        top: -80px;
+        position: relative;
     }
     .App-door {
         width: 200px;
