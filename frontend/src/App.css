@@ -112,7 +112,7 @@
     }
     .Rectangle {
         width: 90%;
-        height: 1200px;
+        height: 95%;
         left: 5%;
         top: 100px;
     }
@@ -131,7 +131,7 @@
     }
     .App-button {
         padding: 10px 20px;
-        /* top: -50px; */
+        top: 10px;
         position: relative;
     }
 }
