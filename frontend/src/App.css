@@ -112,6 +112,7 @@
     }
     .App-container {
         height: 100%;
+        background-size: 36%;
     }
     .Rectangle {
         width: 90%;
@@ -127,11 +128,10 @@
     .intro {
         font-size: 12px;
         top: 200px;
-        /* position: relative; */
     }
     .App-door {
         width: 200px;
-        top: 40px;
+        top: 300px;
         position: relative;
     }
     .App-button {
