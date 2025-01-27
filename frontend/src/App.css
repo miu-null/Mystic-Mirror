@@ -137,8 +137,7 @@
     }
     .App-button {
         padding: 10px 20px;
-        top: -80px;
-        position: relative;
+        top: 100px;
     }
 }
 
