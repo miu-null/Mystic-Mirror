@@ -108,7 +108,7 @@
 
 @media all and (min-width: 376px) and (max-width: 767px) {
     .App-container {
-        height: 100%;
+        height: 150%;
         background-size: 44%;
     }
     .Rectangle {
@@ -133,8 +133,8 @@
     }
     .App-button {
         padding: 10px 20px;
-        top: 10px;
-        position: relative;
+        top: 200px;
+        /* position: relative; */
     }
 }
 
