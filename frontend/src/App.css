@@ -5,17 +5,23 @@
 }
 
 .App {
-    height: 180vh;
+    min-height: 250dvh;
 }
 
 .App-container {
     background-image: url("background.gif");
     background-size: 16%;
     background-repeat: repeat;
-    height: 100%;
+    min-height: 280dvh;
     display: flex;
     position: relative;
 }
+
+.window {
+    background-image:url("main.png");
+    
+}
+
 .Rectangle {
     position: relative;
     display: flex;

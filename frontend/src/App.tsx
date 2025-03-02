@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import './App.css';
-import logo from './logo.png';
+import logo from './newlogo.png';
 import door from './door.gif';
 
 const App = () => {
@@ -44,6 +44,7 @@ const App = () => {
   return (
     <div className="App">
       <header className="App-container">
+        <div className="window">
         <div className="Rectangle">
           <img src={logo} className="App-logo" width={400} alt="logo" />
           <div className="intro">
@@ -66,6 +67,7 @@ const App = () => {
               </button>
             </>
           )}
+        </div>
         </div>
       </header>
     </div>
