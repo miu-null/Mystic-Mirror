@@ -4,17 +4,12 @@
     src: url("font/LanaPixel.ttf") format("truetype"); /* 경로 수정 */
 }
 
-.App {
-    min-height: 250dvh;
-}
-
 .App-container {
     background-image: url("background.gif");
-    background-size: 16%;
     background-repeat: repeat;
-    min-height: 280dvh;
-    /* display: flex;
-    position: relative; */
+    min-height: 100dvh;
+    display: flex;
+    position: relative;
 }
 
 .window {
@@ -34,7 +29,6 @@
 .App-logo {
     left: calc(50% - 320px);
     position: relative;
-    top: 50px;
 }
 .Rectangle {
     position: relative;
