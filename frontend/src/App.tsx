@@ -26,7 +26,7 @@ const App = () => {
             <header className="App-container">
                 <div className="window">
                     <img src={logo} className="App-logo" width={400} alt="logo" />
-                    <div className={"Rectangle"} style={{height: "450px", overflowY: "auto"}}>
+                    <div className={"Rectangle"} style={{height: "500px", overflowY: "auto"}}>
                         <div className="intro">
                             {introduce.map((intro, index) => (
                                 <p key={index}>{intro}</p>
