@@ -13,8 +13,8 @@
     background-size: 16%;
     background-repeat: repeat;
     min-height: 280dvh;
-    display: flex;
-    position: relative;
+    /* display: flex;
+    position: relative; */
 }
 
 .window {
