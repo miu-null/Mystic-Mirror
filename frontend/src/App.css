@@ -86,30 +86,43 @@
         opacity: 100%;
     }
 }
-/* 
 @media all and (max-width: 375px) {
+    .App {
+        height: 140vh;
+    }
+    .App-container {
+        height: 120%;
+        background-size: 60%;
+    }
     .Rectangle {
         width: 90%;
-        height: 90%;
+        height: 88%;
         left: 5%;
-        top: 5%;
+        top: 80px;
     }
     .App-logo {
         width: 70%;
-        top: -80px;
+        position: absolute;
+        top: 15px;
     }
     .intro {
         font-size: 12px;
-        top: -20px;
+        top: 60px;
+        position: relative;
     }
     .App-door {
         width: 200px;
+        top: 60px;
+        position: relative;
     }
     .App-button {
         padding: 10px 20px;
+        top: 120px;
+        position: relative;
     }
 }
 
+/* 
 @media all and (min-width: 376px) and (max-width: 767px) {
     .App {
         height: 140vh;
