@@ -91,13 +91,19 @@
         width: 100%;
         height: 120%;
         background-size: 60%;
+        display: table;
     }
+    .window {
+        height: 555px;
+    }
+
     .Rectangle {
         width: 5%;
         height: 5%;
         left: 5%;
         top: 80px;
     }
+
     .App-logo {
         width: 70%;
         position: absolute;
