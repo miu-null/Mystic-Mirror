@@ -22,17 +22,13 @@
     background-size: 100%;
     position: relative;
     display: flex;
-    border-radius: 8px;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    width: 800px;
-    height: 1600px;
     left: calc(50% - 400px);
     top: 130px;
-    background: rgba(251, 235, 246, 0.2);
-    border: 1px solid #ffe6ae;
-    gap: 20px;
+    width: 800px;
+    height: 740px;
 }
 .App-logo {
     position: relative;
