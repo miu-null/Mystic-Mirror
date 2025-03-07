@@ -29,6 +29,7 @@
 .App-logo {
     left: calc(50% - 320px);
     position: relative;
+    top: 24px;
 }
 .Rectangle {
     position: relative;
