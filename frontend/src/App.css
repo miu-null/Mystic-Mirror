@@ -30,10 +30,22 @@
     width: 800px;
     height: 740px;
 }
+
 .App-logo {
+    left: calc(50% - 320px);
     position: relative;
-    width: 50%;
-    top: -120px;
+    top: 50px;
+}
+.Rectangle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 600px;
+    height: 560px;
+    top: -20px;
+    left: calc(50% - 320px);
 }
 
 .intro {
