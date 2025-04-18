@@ -32,6 +32,9 @@ const App = () => {
                                 <p key={index}>{intro}</p>
                             ))}
                         </div>
+                        <div className="intro">
+                            <p>문을 클릭하세요</p>{" "}
+                        </div>
                         <img
                             src={door}
                             className="App-door"
@@ -43,7 +46,7 @@ const App = () => {
                         {showButton && (
                             <>
                                 <button className="App-button" onClick={popUp}>
-                                    문 열기
+                                    상담 예약하기
                                 </button>
                             </>
                         )}
