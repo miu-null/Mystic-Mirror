@@ -1,4 +1,4 @@
-import {useEffect, useState} from "react";
+import {useEffect, useRef, useState} from "react";
 import "./App.css";
 import logo from "./logo.png";
 import door from "./door.gif";
@@ -9,6 +9,7 @@ const App = () => {
     const handleImageClick = () => {
         setShowButton(!showButton);
     };
+    const buttonRef = useRef<HTMLButtonElement>(null);
 
     const popUp = () => {
         window.Calendly.initPopupWidget({
@@ -20,6 +21,12 @@ const App = () => {
             window.history.scrollRestoration = "manual";
         }
     }, []);
+
+    useEffect(() => {
+        if (showButton && buttonRef.current) {
+            buttonRef.current.scrollIntoView({behavior: "smooth"});
+        }
+    }, [showButton]);
 
     return (
         <div className="App">
@@ -45,7 +52,7 @@ const App = () => {
                         />
                         {showButton && (
                             <>
-                                <button className="App-button" onClick={popUp}>
+                                <button ref={buttonRef} className="App-button" onClick={popUp}>
                                     상담 예약하기
                                 </button>
                             </>
