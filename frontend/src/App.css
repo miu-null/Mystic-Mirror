@@ -142,25 +142,26 @@
     }
     .window {
         max-width: 90%;
-        max-height: 335px;
+        max-height: 334px;
         position: absolute;
         left: calc(50% - 180px);
-        /* top: 130px; */
+        top: 200px;
     }
     .Rectangle {
         width: 280px;
-        max-height: 200px;
+        max-height: 260px;
         left: 10%;
         top: 20px;
     }
     .App-logo {
-        width: 40%;
-        top: 5px;
-        left: calc(50% - 145px);
+        width: 60%;
+        position: absolute;
+        top: 50px;
+        left: calc(50% - 105px);
     }
     .intro {
         font-size: 12px;
-        top: 30px;
+        top: 10px;
         position: relative;
     }
     .App-door {
@@ -170,7 +171,7 @@
     }
     .App-button {
         font-size: 8px;
-        max-width: 20%;
+        max-width: 25%;
         max-height: 20%;
         padding: 10px 10px;
         top: 80px;
