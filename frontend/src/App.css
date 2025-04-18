@@ -21,15 +21,16 @@
     flex-direction: column;
     justify-content: center;
     left: calc(50% - 400px);
-    top: 130px;
+    top: 260px;
     width: 800px;
     height: 740px;
 }
 
 .App-logo {
-    left: calc(50% - 320px);
-    position: relative;
-    top: 24px;
+    left: calc(50% - 200px);
+    width: 450px;
+    position: absolute;
+    top: 16px;
 }
 .Rectangle {
     position: relative;
@@ -37,7 +38,8 @@
     flex-direction: column;
     align-items: center;
     width: 600px;
-    top: -20px;
+    height: 480px;
+    top: 40px;
     left: calc(50% - 320px);
 }
 
@@ -61,8 +63,8 @@
 .App-button {
     padding: 10px 30px;
     border-radius: 8px;
-    border: 1px solid #ab09e6;
-    background: linear-gradient(to right, #ab09e6, #ffffae, #bbbbff);
+    border: 1px solid #f0cbff;
+    background: linear-gradient(to right, #ff73f1, #ffffae, #bbbbff);
     cursor: pointer;
     transition: all 0.3s ease;
     font-family: "LanaPixel";
@@ -79,70 +81,80 @@
     }
     50% {
         opacity: 50%;
-        background: rgb(255, 231, 98);
+        background: rgb(246, 98, 0);
         border: 1px solid #ab09e6;
     }
     100% {
         opacity: 100%;
     }
 }
-@media (max-width: 375px) {
-    .app {
-        width: 1000px;
+@media (min-width: 360px) {
+    .App {
+        height: 400px;
     }
     .App-container {
-        width: 100%;
-        height: 120%;
-        background-size: 60%;
-        display: table;
+        min-height: 100vh;
+        background-size: 80%;
+        position: relative;
+        display: flex;
     }
     .window {
-        height: 555px;
-    }
-
-    .Rectangle {
-        width: 5%;
-        height: 5%;
-        left: 5%;
-        top: 80px;
-    }
-
-    .App-logo {
-        width: 70%;
+        max-width: 95%;
+        max-height: 316px;
         position: absolute;
-        top: 15px;
+        left: calc(50% - 170px);
+        top: 210px;
+    }
+    .Rectangle {
+        width: 260px;
+        max-height: 260px;
+        left: 11%;
+        top: 20px;
+    }
+    .App-logo {
+        width: 80%;
+        position: absolute;
+        top: 50px;
+        left: calc(50% - 145px);
     }
     .intro {
         font-size: 12px;
-        top: 60px;
+        top: 2px;
         position: relative;
     }
     .App-door {
-        width: 200px;
+        width: 100px;
         top: 60px;
         position: relative;
     }
     .App-button {
-        padding: 10px 20px;
-        top: 120px;
+        color: rgb(149, 43, 175);
+        font-size: 8px;
+        max-width: 25%;
+        max-height: 20%;
+        padding: 5px 5px;
+        top: 80px;
+        bottom: 500px;
         position: relative;
     }
 }
 
-@media (min-width: 376px) and (max-width: 767px) {
+@media (min-width: 376px) and (max-width: 411px) {
     .App {
         /* width: 800px; */
         height: 400px;
     }
     .App-container {
         min-height: 100vh;
-        background-size: 60%;
+        background-size: 80%;
         position: relative;
         display: flex;
     }
     .window {
         max-width: 90%;
-        max-height: 334px;
+        /* max-height: 343px; */
+        max-height: 38.3%;
+
         position: absolute;
         left: calc(50% - 180px);
         top: 200px;
@@ -173,7 +185,59 @@
         font-size: 8px;
         max-width: 25%;
         max-height: 20%;
-        padding: 10px 10px;
+        padding: 5px 5px;
+        top: 80px;
+        bottom: 500px;
+        position: relative;
+    }
+}
+
+@media (min-width: 412px) and (max-width: 767px) {
+    .App {
+        /* width: 800px; */
+        height: 400px;
+    }
+    .App-container {
+        min-height: 100vh;
+        background-size: 80%;
+        position: relative;
+        display: flex;
+    }
+    .window {
+        max-width: 90%;
+        max-height: 343px;
+
+        position: absolute;
+        left: calc(50% - 180px);
+        top: 200px;
+    }
+    .Rectangle {
+        width: 280px;
+        max-height: 260px;
+        left: 10%;
+        top: 20px;
+    }
+    .App-logo {
+        width: 60%;
+        position: absolute;
+        top: 50px;
+        left: calc(50% - 105px);
+    }
+    .intro {
+        font-size: 12px;
+        top: 10px;
+        position: relative;
+    }
+    .App-door {
+        width: 100px;
+        top: 60px;
+        position: relative;
+    }
+    .App-button {
+        font-size: 8px;
+        max-width: 25%;
+        max-height: 20%;
+        padding: 5px 5px;
         top: 80px;
         bottom: 500px;
         position: relative;
